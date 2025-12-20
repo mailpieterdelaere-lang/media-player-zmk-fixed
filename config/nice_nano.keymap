@@ -6,7 +6,7 @@
         zmk,kscan = &kscan0;
     };
 
-    kscan0: kscan {
+    kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
         
@@ -22,7 +22,9 @@
 
         default_layer {
             bindings = 
-                &kp C_PP    &kp C_PREV    &kp C_NEXT
+                &kp C_PP
+                &kp C_PREV
+                &kp C_NEXT
             >;
         };
     };
