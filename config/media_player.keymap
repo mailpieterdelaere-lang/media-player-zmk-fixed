@@ -9,7 +9,7 @@
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
-
+        
         input-gpios
             = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -21,7 +21,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings =
+            bindings = 
                 &kp C_PP    &kp C_PREV    &kp C_NEXT
             >;
         };
