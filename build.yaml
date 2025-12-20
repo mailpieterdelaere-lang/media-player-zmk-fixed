@@ -2,18 +2,3 @@
 include:
   - board: nice_nano
     snippet: studio-rpc-usb-uart
-```
-
-Notice: **No shield line!** The unified template doesn't use shields.
-
-3. Press **Cmd + S** to save
-
-**Step 3: Verify Your Files**
-
-Your project should now have just these important files:
-```
-config/
-├── media_player.keymap  ← All your configuration
-└── west.yml             ← Dependencies
-
-build.yaml               ← Build settings (in root)
